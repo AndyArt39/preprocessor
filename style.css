@@ -1,0 +1,32 @@
+body {
+  font-family: sans-serif;
+  background: cyan;
+}
+body h1 {
+  position: relative;
+  color: #009999;
+}
+body h1:before {
+  content: "";
+  position: absolute;
+  inset: 10px;
+  background: rgba(255, 0, 0, 0.3);
+  pointer-events: none;
+}
+
+.block__elem {
+  color: red;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 10px 25px;
+  background-color: #f2f2f2;
+}
+
+.container-fluid {
+  margin: 0 auto;
+  padding: 10px 25px;
+  background-color: #f2f2f2;
+}/*# sourceMappingURL=style.css.map */
